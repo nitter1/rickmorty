@@ -51,6 +51,11 @@ import styled, {
     align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+
+  @media (min-width: 320px) {
+    width: 93%;
+    height: 750px;
+  }
   `;
 
   export const Box = styled.div`
@@ -58,6 +63,11 @@ import styled, {
     justify-content: center;
     align-items: center;
     width: 75%;
+
+    @media (min-width: 320px) {
+    width: 65%;
+    flex-wrap: wrap;
+  }
   `;
   
   export const Image = styled.img`
@@ -65,12 +75,21 @@ import styled, {
     height: 50vh;
     background-size: cover;
     border-radius: 2rem;
+
+    @media (min-width: 320px) {
+    width: 75vw;
+    height: 50vh;
+  }
   `;
   
   export const Name = styled.h2`
     text-align: center;
     font-family: "Montserrat", sans-serif;
     color: white;
+
+    @media (min-width: 320px) {
+    text-align: center;
+  }
   `;
   
   export const Gender = styled.h4`
@@ -78,6 +97,10 @@ import styled, {
     font-family: "Montserrat", sans-serif;
     color: white;
     margin: 5px;
+
+    @media (min-width: 320px) {
+    text-align: center;
+  }
   `;
   
   export const Status = styled.h4`
@@ -85,6 +108,10 @@ import styled, {
     font-family: "Montserrat", sans-serif;
     color: white;
     margin: 5px;
+
+    @media (min-width: 320px) {
+    text-align: center;
+  }
   `;
   
   export const Location = styled.h4`
@@ -92,17 +119,26 @@ import styled, {
     font-family: "Montserrat", sans-serif;
     color: white;
     margin: 5px;
+
+    @media (min-width: 320px) {
+    text-align: center;
+  }
   `;
   
   export const Text = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: space-evenly;
     color: white;
     padding-left: 5rem;
     margin-left: 5rem;
     text-align: left;
+
+    @media (min-width: 320px) {
+    padding-left: 0;
+    margin-left: 0;
+    }
   `;
   
   export const Button =styled.button`
