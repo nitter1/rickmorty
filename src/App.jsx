@@ -41,6 +41,7 @@ class App extends Component {
       },
       () => {
         this.PegarPersonagem(); // Atualizando a lista de personagens após mudar a página
+        window.scrollTo(0, 0); 
       }
     );
   };
@@ -53,6 +54,7 @@ class App extends Component {
         },
         () => {
           this.PegarPersonagem(); // Atualizando a lista de personagens após mudar a página
+          window.scrollTo(0, 0);
         }
       );
     }
