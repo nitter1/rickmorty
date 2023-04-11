@@ -52,7 +52,7 @@ import styled, {
   justify-content: center;
   flex-wrap: wrap;
 
-  @media (min-width: 320px) {
+  @media (min-width: 320px) and (max-width: 768px){
     width: 93%;
     height: 750px;
   }
@@ -64,7 +64,7 @@ import styled, {
     align-items: center;
     width: 75%;
 
-    @media (min-width: 320px) {
+    @media (min-width: 320px) and (max-width: 768px){
     width: 65%;
     flex-wrap: wrap;
   }
@@ -76,7 +76,7 @@ import styled, {
     background-size: cover;
     border-radius: 2rem;
 
-    @media (min-width: 320px) {
+    @media (min-width: 320px) and (max-width: 768px){
     width: 75vw;
     height: 50vh;
   }
@@ -87,7 +87,7 @@ import styled, {
     font-family: "Montserrat", sans-serif;
     color: white;
 
-    @media (min-width: 320px) {
+    @media (min-width: 320px) and (max-width: 768px){
     text-align: center;
   }
   `;
@@ -98,7 +98,7 @@ import styled, {
     color: white;
     margin: 5px;
 
-    @media (min-width: 320px) {
+    @media (min-width: 320px) and (max-width: 768px){
     text-align: center;
   }
   `;
@@ -109,7 +109,7 @@ import styled, {
     color: white;
     margin: 5px;
 
-    @media (min-width: 320px) {
+    @media (min-width: 320px) and (max-width: 768px){
     text-align: center;
   }
   `;
@@ -120,7 +120,7 @@ import styled, {
     color: white;
     margin: 5px;
 
-    @media (min-width: 320px) {
+    @media (min-width: 320px) and (max-width: 768px){
     text-align: center;
   }
   `;
@@ -135,7 +135,7 @@ import styled, {
     margin-left: 5rem;
     text-align: left;
 
-    @media (min-width: 320px) {
+    @media (min-width: 320px) and (max-width: 768px){
     padding-left: 0;
     margin-left: 0;
     }
