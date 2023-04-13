@@ -4,4 +4,5 @@
 ### `Styled-Components e GlobalStyle`
 ### `Background Gradient`
 ### `Paginação com botões animados`
+### `Responsivo`
 
